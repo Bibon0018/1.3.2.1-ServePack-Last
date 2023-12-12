@@ -1,0 +1,15 @@
+.mixin.out/
+.fabric/
+assets/
+config/
+defaultconfigs/
+fancymenu_data/
+fancymenu_setups/
+kubejs/
+libraries/
+logs/
+menu/
+moddata/
+mods/
+patchouli_books/
+versions/

@@ -1,0 +1,20 @@
+{
+  "supportingTeam": "NONE",
+  "joinButtonOptions": {
+    "overrideJoinButton": false,
+    "buttonTextOverride": "Join MCC Island!",
+    "buttonServerNameOverride": "MCC Island!",
+    "buttonServerAddressOverride": "play.mccisland.net"
+  },
+  "themeOptions": {
+    "overrideTheme": false,
+    "theme": "NORMAL"
+  },
+  "splashOptions": {
+    "overrideSplash": false,
+    "overrideSplashText": "Set Sail Today!"
+  },
+  "devOptions": {
+    "apiUrl": "https://api.mcchampionship.com"
+  }
+}

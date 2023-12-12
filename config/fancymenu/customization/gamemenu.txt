@@ -1,0 +1,196 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.class_433
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_pausescreen_return_to_game_button%
+  orientation = mid-centered
+  x = -101
+  action = movebutton
+  y = -49
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_pausescreen_return_to_game_button%
+  width = 202
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_pausescreen_return_to_game_button%
+  action = setbuttonlabel
+  value = Продолжить
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_pausescreen_feedback_button%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_pausescreen_disconnect_button%
+  orientation = mid-centered
+  x = -100
+  action = movebutton
+  y = 19
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_pausescreen_disconnect_button%
+  width = 200
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=504306%
+  orientation = bottom-right
+  x = -109
+  action = movebutton
+  y = -56
+}
+
+customization {
+  identifier = %id=504306%
+  width = 99
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=40%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=606258%
+  orientation = mid-centered
+  x = 103
+  action = movebutton
+  y = -4
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_pausescreen_advancements_button%
+  orientation = mid-centered
+  x = 4
+  action = movebutton
+  y = -4
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_pausescreen_advancements_button%
+  width = 96
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_pausescreen_options_button%
+  orientation = mid-centered
+  x = -101
+  action = movebutton
+  y = -26
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_pausescreen_options_button%
+  width = 202
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_pausescreen_options_button%
+  action = setbuttonlabel
+  value = Настройки
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_pausescreen_stats_button%
+  orientation = mid-centered
+  x = -100
+  action = movebutton
+  y = -3
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_pausescreen_stats_button%
+  width = 96
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  orientation = bottom-left
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  buttonaction = openlink;https://vk.com/takoesebeeschesno%btnaction_splitter_fm%
+  x = 8
+  width = 140
+  action = addbutton
+  actionid = 85c1cf82-c8f8-4064-9ecd-476681b55d791695399389842
+  y = -32
+  label = Сообщить о баге автору 
+  height = 21
+}
+
+customization {
+  slim = false
+  auto_skin = false
+  scale = 45
+  showname = true
+  follow_mouse = true
+  capeurl = http://textures.minecraft.net/texture/2340c0e03dd24a11b15a8b33c2a7e9e32abb2051b2481d0ba7defd635ca7a933
+  action = custom_layout_element:fancymenu_customization_player_entity
+  actionid = 9472513d-4dbf-410a-9bfa-f43d980bd6b11695948293948
+  playername = NetIdei
+  bodyrotationx = 0.0
+  bodyrotationy = 0.0
+  auto_cape = false
+  is_baby = false
+  height = 81
+  orientation = mid-centered
+  copy_client_player = true
+  headrotationy = 0.0
+  headrotationx = 0.0
+  skinurl = http://textures.minecraft.net/texture/b574831b91772e3cc4a518fc6264ca0a191897b1ce608377104ef2ac729720f
+  crouching = false
+  x = -163
+  width = 27
+  parrot_left_shoulder = false
+  y = -45
+  parrot = false
+}
+
+customization {
+  path = menu/logo.png
+  orientation = top-centered
+  x = -114
+  width = 219
+  action = addtexture
+  actionid = dd75c839-d54d-414d-b6d5-4365af5e85081698823454799
+  y = 8
+  height = 61
+}
+
+customization {
+  identifier = %id=504330%
+  orientation = bottom-right
+  x = -109
+  action = movebutton
+  y = -32
+}
+

@@ -1,0 +1,64 @@
+{
+	// enable or disable thirst
+	"thirst": true,
+	// enable or disable seasons
+	"seasons": true,
+	// Days per season
+	"daysPerSeason": 4,
+	// Animals die by hunger
+	"animalsDieByHunger": true,
+	// Animals die by thirst
+	"animalsDieByThirst": true,
+	// enable or disable spawn egg baby animal (animals from egg spawn as baby) Only Affects: Pig,Cow,Sheep,Chicken,Horse & Goats.
+	"spawnEggBaby": true,
+	// enable or disable natural Pig spawning
+	"doPigSpawn": false,
+	// enable or disable natural Cow spawning
+	"doCowSpawn": false,
+	// enable or disable natural Sheep spawning
+	"doSheepSpawn": false,
+	// enable or disable natural Chicken spawning
+	"doChickenSpawn": false,
+	// enable or disable natural Horse spawning
+	"doHorseSpawn": false,
+	// enable or disable natural Goat spawning
+	"doGoatSpawn": false,
+	// enable or disable natural Creeper spawning
+	"doCreeperSpawn": true,
+	// enable or disable natural Zombie spawning
+	"doZombieSpawn": true,
+	// enable or disable natural ZombieVillager spawning
+	"doZombieVillagerSpawn": true,
+	// enable or disable natural ZombieVillager spawning
+	"doZombieHorseSpawn": true,
+	// enable or disable natural Skeleton spawning
+	"doSkeletonSpawn": true,
+	// enable or disable natural Husk spawning
+	"doHuskSpawn": true,
+	// enable or disable natural Witch spawning
+	"doWitchSpawn": true,
+	// enable or disable natural Husk spawning
+	"doSpiderSpawn": true,
+	// enable or disable natural SkeletonHorse spawning
+	"doSkeletonHorseSpawn": true,
+	// enable or disable natural EnderMan spawning
+	"doEnderManSpawn": true,
+	// enable or disable natural Drowned spawning
+	"doDrownedSpawn": true,
+	// enable or disable season timeline
+	"seasonDisplayTimeline": false,
+	// Season Timeline text scale
+	"seasonTimelineTextScale": 0.5,
+	// Season Timeline text Y offset
+	"seasonTimelineTextYOffset": 20,
+	// enable or disable season icon
+	"seasonDisplayIcon": false,
+	// enable or disable season info
+	"seasonDisplayInfo": false,
+	// Season Info text scale
+	"seasonDisplayInfoScale": 0.5,
+	// Season Info text X offset
+	"seasonDisplayInfoXOffset": 0,
+	// Season Info text Y offset
+	"seasonDisplayInfoYOffset": 0
+}

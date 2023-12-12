@@ -1,0 +1,14 @@
+{
+  "chosenPreset": 0,
+  "apiPreset": 0,
+  "loadedPresets": [
+    {
+      "skin": {
+        "texture": "minecraft:textures/entity/player/wide/alex.png",
+        "model": "default",
+        "type": "skinshuffle:resource"
+      },
+      "name": "moqen"
+    }
+  ]
+}

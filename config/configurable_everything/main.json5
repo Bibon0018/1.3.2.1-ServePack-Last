@@ -1,0 +1,40 @@
+{
+	/* 
+	   Enabled configs
+	   Warning: It is important to check the contents of each config before enabling them here.
+	*/
+	"biome": false,
+	"biome_placement": false,
+	"block": false,
+	"datafixer": false,
+	"entity": false,
+	"fluid": false,
+	"game": false,
+	"item": false,
+	"registry": false,
+	"screen_shake": false,
+	"splash_text": false,
+	"surface_rule": false,
+	"world": false,
+	// Datapack features will not apply unless the main toggle and datapack toggle are set to true.
+	"datapack": {
+		"applyDatapackFolders": true,
+		"datapackFolders": [
+			"./config/configurable_everything/datapacks",
+			"./datapacks",
+		],
+		"biome": true,
+		"biome_placement": true,
+		// Allows the usage of JSON5 files in datapacks.
+		"json5Support": true,
+	},
+	// Requires Fabric Kotlin Extensions
+	"kotlinScripting": {
+		"applyKotlinScripts": true,
+		"defaultImports": [
+			"kotlinx.coroutines.*",
+			"net.frozenblock.configurableeverything.util.*",
+			"net.frozenblock.configurableeverything.scripting.util.*",
+		],
+	},
+}

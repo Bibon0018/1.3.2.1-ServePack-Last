@@ -1,0 +1,58 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.class_429
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  path = menu/setting.png
+  action = texturizebackground
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  identifier = %id=9755%
+  action = hidebutton
+}
+
+customization {
+  orientation = bottom-centered
+  enable_scrolling = true
+  shadow = true
+  scale = 1.0
+  source = Сборка сделана игроком: moqen%n%
+  text_border = 0
+  case_mode = normal
+  source_mode = direct
+  line_spacing = 1
+  x = -100
+  width = 200
+  action = custom_layout_element:fancymenu_customization_item_text
+  actionid = ce300fe9-3256-45ba-ad21-eaa10aecfc1e1695386754846
+  y = -32
+  alignment = left
+  height = 40
+}
+
+customization {
+  orientation = bottom-left
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  buttonaction = openlink;https://vk.com/takoesebeeschesno%btnaction_splitter_fm%
+  x = 6
+  width = 140
+  action = addbutton
+  actionid = 235ddaea-ea87-4555-acdb-2b8bbacdbab41695410961367
+  y = -30
+  label = Сообщить о баге автору 
+  height = 20
+}
+
